@@ -1,1 +1,1 @@
-EverThing Should be Free
+EveryThing Should be Free
