@@ -1,0 +1,25 @@
+#include <iostream>
+#include <Windows.h>
+
+int main()
+{
+    // Find the process handle of the Roblox game
+    HWND hWnd = FindWindowA(NULL, "Roblox");
+    DWORD procId;
+    GetWindowThreadProcessId(hWnd, &procId);
+    HANDLE hProc = OpenProcess(PROCESS_ALL_ACCESS, FALSE, procId);
+
+    // Find the address of the Byfron anti-cheat function
+    uintptr_t moduleBase = (uintptr_t)GetModuleHandle(L"RobloxPlayerBeta.exe");
+    uintptr_t address = moduleBase + 0x123456; // Replace with actual address
+
+    // Disable the Byfron anti-cheat function
+    char patch[] = { 0x90, 0x90, 0x90, 0x90, 0x90, 0x90 };
+    SIZE_T bytesWritten;
+    WriteProcessMemory(hProc, (LPVOID)address, patch, sizeof(patch), &bytesWritten);
+
+    // Close the process handle
+    CloseHandle(hProc);
+
+    return 0;
+}

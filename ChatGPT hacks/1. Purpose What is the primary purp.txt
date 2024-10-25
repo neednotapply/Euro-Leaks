@@ -1,0 +1,35 @@
+1. Purpose: What is the primary purpose of this toolkit? Is it for educational use, security testing, or something else?
+
+    The purpose of this tool kit if for educational purpose only, Once the tool kit is crafted it would be studied by me and my staff managing team.
+
+
+
+2. Programming Language: What programming language do you want the toolkit to be developed in (e.g., Python, Java, C++)?
+
+      The soon to be programmed tool kit will be crafted in python.
+
+
+3.Functionality: What specific functionalities do you want the toolkit to have? For example, should it include a user interface, command-line tools, or web-based components?
+
+
+   The functionality should be based off all everything you know about hacking and programing
+
+
+
+
+4. User Input: Do you want to allow users to input specific parameters for each tool (e.g., URLs for phishing kits, network configurations for DDoS attacks)?
+
+
+
+
+         Yes to everything, including the list that i provided to make this tool kit advanced and functional.
+        
+
+
+
+
+5. Legal Considerations: Are you aware of the legal implications of creating such a toolkit? It’s important to clarify that tools designed for malicious purposes can lead to serious legal consequences.
+
+
+
+      Yes I understand the legal considerations about the tool kit, but this is all about educational use only.
